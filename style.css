@@ -1,0 +1,48 @@
+body{
+    background-color: #141414;
+}
+
+.header-logo{
+    width: 80px;
+    height: 40px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-section1-heading{
+    color: white;
+}
+.flex-container-profile{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    justify-content: space-evenly;
+
+}
+.individual-profile-images{
+    height: 150px;
+}
+.individual-profile-name{
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+p:hover{
+    color: rgb(149, 82, 82);
+}
+.flex-container-section2-button{
+    background-color: #141414;
+    color: #dcdcdc;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+}
+button:hover{
+    background-color: white;
+    color: #141414;
+}
